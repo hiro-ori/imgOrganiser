@@ -1,0 +1,19 @@
+# Creates jpg directory
+ direc_jpg = "Jpeg images"
+
+ parent_dir = os.path.join(Path.home(), "Downloads", "images")
+
+ path_jpg = os.path.join(parent_dir, direc_jpg)
+
+ os.mkdir(path_jpg)
+ print("Directory '% s' created" % direc_jpg)
+
+# Creates png directory
+ direc_png = "Png images"
+
+ parent_dir = os.path.join(Path.home(), "Downloads", "images")
+
+ path_png = os.path.join(parent_dir, direc_png)
+
+ os.mkdir(path_png)
+ print("Directory '% s' created" % direc_png)
